@@ -24,5 +24,20 @@ int main() {
         double testAverage;
     }
 
+    // @cohesion Logical
+    {
+        std::vector<std::string> exerciseNames;
+        std::vector<std::string> testNames;
+        std::vector<std::string> quizNames;
+
+        std::vector<int> exercises;
+        std::vector<int> quizzes;
+        std::vector<int> tests;
+
+        double exerciseAverage;
+        double quizAverage;
+        double testAverage;
+    }
+
     return 0;
 }
