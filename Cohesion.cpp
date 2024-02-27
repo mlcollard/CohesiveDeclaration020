@@ -9,7 +9,7 @@
 
 int main() {
 
-    // @cohesion
+    // @cohesion Coincidental
     {
         std::vector<std::string> testNames;
         double exerciseAverage;
