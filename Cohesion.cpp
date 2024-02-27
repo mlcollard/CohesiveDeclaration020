@@ -46,5 +46,23 @@ int main() {
         double exerciseAverage, quizAverage, testAverage;
     }
 
+    // @cohesion Functional
+    {
+        // exercises
+        std::vector<std::string> exerciseNames;
+        std::vector<int> exercises;
+        double exerciseAverage;
+
+        // tests
+        std::vector<std::string> testNames;
+        std::vector<int> tests;
+        double testAverage;
+
+        // quizzes
+        std::vector<std::string> quizNames;
+        std::vector<int> quizzes;
+        double quizAverage;
+    }
+
     return 0;
 }
